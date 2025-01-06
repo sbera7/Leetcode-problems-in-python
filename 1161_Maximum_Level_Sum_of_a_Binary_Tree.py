@@ -10,7 +10,6 @@ class Solution:
         if not root:
             return 0
         q = deque([root])
-        temp_q = deque([root])
         max_sum = root.val
         level, max_level = 1, 1
         while q:
